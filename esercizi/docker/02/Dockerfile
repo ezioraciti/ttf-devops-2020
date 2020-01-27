@@ -1,2 +1,2 @@
 FROM alpine
-CMD figlet "Hello World"
+CMD figlet Hello World
