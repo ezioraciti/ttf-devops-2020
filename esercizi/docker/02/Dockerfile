@@ -1,2 +1,3 @@
 FROM alpine
-CMD figlet Hello World
+RUN apk add figlet
+CMD figlet "Hello World"
