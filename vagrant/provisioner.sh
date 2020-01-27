@@ -3,13 +3,8 @@
 install_and_configure_git() {
     apk add git git-doc nano
     git config --system core.editor nano
-<<<<<<< HEAD
     su vagrant -c "git config --global user.name \"Ezio Raciti (ezioraciti)\""
     su vagrant -c 'git config --global user.email ezio-17@hotmail.it'
-=======
-#    su vagrant -c "git config --global user.name \"<your_fullname_or_github_nickname\""
-#    su vagrant -c 'git config --global user.email <your_email@domain.test>'
->>>>>>> origin2/master
 }
 
 install_and_configure_docker() {
