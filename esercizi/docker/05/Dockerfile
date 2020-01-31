@@ -1,3 +1,3 @@
 FROM alpine
-ENTRYPOINT factor[]
+ENTRYPOINT ["factor"]
 CMD ["42"]
