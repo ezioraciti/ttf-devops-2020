@@ -21,6 +21,11 @@ install_and_configure_docker-compose() {
     pip install docker-compose
 }
 
+install_nodejs_and_npm() {
+	apk add nodejs npm
+}
+
 install_and_configure_git
 install_and_configure_docker
 install_and_configure_docker-compose
+install_nodejs_and_npm
