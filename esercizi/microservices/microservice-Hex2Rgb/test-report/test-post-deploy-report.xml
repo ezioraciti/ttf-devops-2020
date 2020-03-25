@@ -1,0 +1,85 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="test suite description" tests="9" errors="0" failures="9" skipped="0" timestamp="2020-03-25T19:21:52" time="0.07">
+    <testcase classname="test suite description" name="test case description" time="0.005">
+      <failure message="expected {} to deeply equal { red: 255, green: 0, blue: 0 }">-{}
++{
++  &quot;blue&quot;: 0
++  &quot;green&quot;: 0
++  &quot;red&quot;: 255
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0.001">
+      <failure message="expected {} to deeply equal { red: 255, green: 191, blue: 0 }">-{}
++{
++  &quot;blue&quot;: 0
++  &quot;green&quot;: 191
++  &quot;red&quot;: 255
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0.001">
+      <failure message="expected {} to deeply equal { red: 128, green: 255, blue: 0 }">-{}
++{
++  &quot;blue&quot;: 0
++  &quot;green&quot;: 255
++  &quot;red&quot;: 128
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0.001">
+      <failure message="expected {} to deeply equal { red: 0, green: 255, blue: 64 }">-{}
++{
++  &quot;blue&quot;: 64
++  &quot;green&quot;: 255
++  &quot;red&quot;: 0
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0">
+      <failure message="expected {} to deeply equal { red: 0, green: 255, blue: 255 }">-{}
++{
++  &quot;blue&quot;: 255
++  &quot;green&quot;: 255
++  &quot;red&quot;: 0
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0.001">
+      <failure message="expected {} to deeply equal { red: 0, green: 64, blue: 255 }">-{}
++{
++  &quot;blue&quot;: 255
++  &quot;green&quot;: 64
++  &quot;red&quot;: 0
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0">
+      <failure message="expected {} to deeply equal { red: 128, green: 0, blue: 255 }">-{}
++{
++  &quot;blue&quot;: 255
++  &quot;green&quot;: 0
++  &quot;red&quot;: 128
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0.001">
+      <failure message="expected {} to deeply equal { red: 255, green: 0, blue: 191 }">-{}
++{
++  &quot;blue&quot;: 191
++  &quot;green&quot;: 0
++  &quot;red&quot;: 255
++}
+</failure>
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0">
+      <failure message="expected {} to deeply equal { red: 255, green: 0, blue: 64 }">-{}
++{
++  &quot;blue&quot;: 64
++  &quot;green&quot;: 0
++  &quot;red&quot;: 255
++}
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

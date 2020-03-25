@@ -1,14 +1,15 @@
 import chai from 'chai';
 import {convert} from './Service';
+import { hex2rgbTestData } from "../../../commons/src/test-data/colors"
 
 chai.config.includeStack = true;
 const should = chai.should();
 
-//TODO
+//TODO --FATTO
 describe('test suite description', () => {
-    testData.forEach((test) => {
+    hex2rgbTestData.forEach((test) => {
         it(`test case description`, () => {
-            convert(test.input).should.deep.equal(test.expected);
+            convert(test.hexValue).should.deep.equal(test.rgbValue);
         });
     });
 });
