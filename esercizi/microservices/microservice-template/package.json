@@ -6,8 +6,8 @@
   "homepage": "",
   "license": "GPL-3.0",
   "author": {
-    "name": "Ezio Raciti (ezioraciti)",
-    "email": "racitiezio@gmail.com"
+    "name": "Gianni Bombelli (bombo82)",
+    "email": "bombo82@giannibombelli.it"
   },
   "contributors": [],
   "main": "dist/microservice-template/src/HttpServer.js",

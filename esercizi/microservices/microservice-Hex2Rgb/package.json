@@ -10,7 +10,7 @@
     "email": "racitiezio@gmail.com"
   },
   "contributors": [],
-  "main": "dist/microservice-template/src/HttpServer.js",
+  "main": "dist/microservice-Hex2Rgb/src/HttpServer.js",
   "repository": {
     "type": "git",
     "url": ""
