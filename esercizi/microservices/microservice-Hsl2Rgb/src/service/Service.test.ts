@@ -1,14 +1,16 @@
 import chai from 'chai';
 import {convert} from './Service';
+import { hsl2rgbTestData } from "../../../commons/src/test-data/colors";
 
 chai.config.includeStack = true;
 const should = chai.should();
 
-//TODO
+//TODO --FATTO
 describe('test suite description', () => {
-    testData.forEach((test) => {
-        it(`test case description`, () => {
-            convert(test.input).should.deep.equal(test.expected);
+    hsl2rgbTestData.forEach((test) => {
+        it(`test case description`, async () => {
+            let result = await convert(test.hslValue);
+            convert(test.hslValue).should.deep.equal(test.rgbValue);
         });
     });
 });
