@@ -11,7 +11,7 @@ const should = chai_1.default.should();
 chai_1.default.use(chai_http_1.default);
 //TODO --FATTO
 describe('REST API test suite description', () => {
-    const url = process.env.npm_config_rgb2hex_test_url || `http://localhost:Hex2Rgb`;
+    const url = process.env.npm_config_rgb2hex_test_url || `http://localhost:hex2rgb`;
     console.log('Test URL: ' + url);
     colors_1.hex2rgbTestData.forEach((test) => {
         it(`test case description`, (done) => {
