@@ -1,16 +1,16 @@
 {
-  "name": "",
+  "name": "microserviziohsltorgb",
   "version": "0.0.1",
   "description": "This software is part of a micro-service architecture written for demonstration purposes.",
   "keywords": [],
   "homepage": "",
   "license": "GPL-3.0",
   "author": {
-    "name": "Gianni Bombelli (bombo82)",
-    "email": "bombo82@giannibombelli.it"
+    "name": "Ezio Raciti (ezioraciti)",
+    "email": "racitiezio@gmail.com"
   },
   "contributors": [],
-  "main": "dist/microservice-template/src/HttpServer.js",
+  "main": "dist/microservice-Hsl2Rgb/src/HttpServer.js",
   "repository": {
     "type": "git",
     "url": ""
