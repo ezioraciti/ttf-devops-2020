@@ -5,7 +5,7 @@ import { TtfHsl, TtfRgb } from "../../../commons/src/model/Color";
 //TODO --FATTO
 class HttpController {
     constructor(server: Express) {
-        server.get('/', (req, res) => {
+        server.get('/', async(req, res) => {
             const color = JSON.parse(req.query.color) as TtfHsl;
             const convertedColor: TtfRgb = convert(color);
 
