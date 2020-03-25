@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Service_1 = require("../service/Service");
-//TODO
+//TODO --FATTO, Voce: sistemare gli errori di compilazione
 class HttpController {
     constructor(server) {
         server.get('/', (req, res) => {
