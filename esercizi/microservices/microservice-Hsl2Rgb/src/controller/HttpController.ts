@@ -7,7 +7,7 @@ class HttpController {
     constructor(server: Express) {
         server.get('/', async(req, res) => {
             const color = JSON.parse(req.query.color) as TtfHsl;
-            const convertedColor: TtfRgb = convert(color);
+            const convertedColor: TtfRgb = await convert(color);
 
             res.send(convertedColor);
         });
