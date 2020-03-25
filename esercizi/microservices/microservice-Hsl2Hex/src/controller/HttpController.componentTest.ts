@@ -9,7 +9,7 @@ chai.use(chaiHttp);
 
 //TODO --FATTO
 describe('REST API test suite description', () => {
-    const url = process.env.npm_config_rgb2hex_test_url || `http://localhost:hsl2hex`;
+    const url = process.env.npm_config_rgb2hex_test_url || `http://localhost:${config.port}`;
     console.log('Test URL: ' + url);
 
     hsl2hexTestData.forEach((test) => {
