@@ -1,5 +1,5 @@
 import colorConverter from 'color-convert'
-import fetch from "node-fetch";
+import fetch from 'node-fetch';
 import { TtfHsl, TtfRgb } from "../../../commons/src/model/Color";
 
 //TODO --FATTO

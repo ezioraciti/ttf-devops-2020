@@ -30,8 +30,10 @@
     "postdist": "copyfiles package.json dist/ && copyfiles package-lock.json dist/ && cd dist && npm install --only=production"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.5.5",
     "color-convert": "^1.9.3",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.9",
