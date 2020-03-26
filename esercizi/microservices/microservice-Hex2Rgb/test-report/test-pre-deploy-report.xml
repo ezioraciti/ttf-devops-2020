@@ -1,31 +1,22 @@
 <testsuites name="Mocha Tests">
-  <testsuite name="REST API test suite description" tests="9" errors="0" failures="9" skipped="0" timestamp="2020-03-25T21:54:21" time="10.027">
-    <testcase classname="REST API test suite description" name="test case description" time="2.002">
-      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\Ezio\Desktop\EserciziDevOps\ttf-devops-2020\esercizi\microservices\microservice-Hex2Rgb\src\controller\HttpController.componentTest.ts)"></failure>
+  <testsuite name="REST API test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2020-03-26T00:07:35" time="0.139">
+    <testcase classname="REST API test suite description" name="test case description" time="0.039">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.005">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0">
-      <failure message="expected [Error: connect ECONNREFUSED 127.0.0.1:80] to not exist"></failure>
+    <testcase classname="REST API test suite description" name="test case description" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>
