@@ -4,6 +4,6 @@ COPY /dist /API/dist
 COPY package.json /API
 WORKDIR /API
 RUN npm install
-WORKDIR /API/dist/Hsl2Hex/src/
+WORKDIR /API/dist/microservice-Hsl2Hex/src/
 EXPOSE 3000
 CMD ["node","HttpServer.js"]
